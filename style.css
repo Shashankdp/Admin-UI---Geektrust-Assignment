@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#searchInput{
+    width: 100%;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+th {
+    background-color: #f2f2f2;
+}
+  
+input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+  
+button {
+    margin-right: 10px;
+}
+
+.editbtn{
+    
+}
+.deletebtn{
+    color: red;
+    cursor: pointer;
+}  
+
+.actionbtns{
+    display: flex;
+    gap: 20px;
+}
+#pagination button{
+    margin-right: 20px;
+    text-align: center;
+    border: none;
+    background-color: rgb(10, 126, 228);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+#pagination{
+    text-align: center;
+}
+.selected {
+    background-color: #f0f0f0;
+}
+
+#deleteSelectedBtn{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
